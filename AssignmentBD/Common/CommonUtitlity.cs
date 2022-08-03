@@ -10,7 +10,7 @@ namespace AssignmentBD.Common
     {
         private IDictionary<int, string> EntryPoints = new Dictionary<int, string>();
         private IDictionary<int, string> NationalHolidays = new Dictionary<int, string>();
-
+         
         public IDictionary<int, string> LoadEntryPoints()
         {
             EntryPoints.Add(0, "Zero Point".ToUpper());
