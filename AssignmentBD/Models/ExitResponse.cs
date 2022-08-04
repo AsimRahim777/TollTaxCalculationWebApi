@@ -10,7 +10,7 @@ namespace AssignmentBD.Models
     public class ExitResponse : CommonProps
     {
         public ViewExitResponse ResponseData { get; set; }
-    }
+    } 
     public class ViewExitResponse
     {
         public double BaseRate { get; set; }
